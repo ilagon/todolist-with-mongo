@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.boxHead {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 8px 8px 16px #888888;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  max-width: 500px;
+  padding: 4px;
+  text-align: center;
+}
+
+.boxlist {
+  background: #8360c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: inherit;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 8px 8px 16px #888888;
+  margin-bottom: 16px;
+  max-width: 500px;
+  padding: 4px;
+}
