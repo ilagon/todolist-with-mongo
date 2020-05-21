@@ -12,7 +12,7 @@ app.use(express.static("public"));
 
 mongoose.set('useFindAndModify', false);
 mongoose.set('useNewUrlParser', true)
-mongoose.connect("mongodb+srv://admin-adrian:12345@cluster0-70fmj.mongodb.net/todoDB", { useUnifiedTopology: true });
+mongoose.connect("mongodb://localhost:27017/todoDB", { useUnifiedTopology: true });
 
 const itemsSchema = {
     name: String
